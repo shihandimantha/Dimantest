@@ -3491,7 +3491,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `Hi ${pushname}`,
-                    description: `Please Choose The Menu\n\n තෝරන්න`,
+                    description: `Please Choose The Menu\n\මෙනුව තෝරන්න`,
                     buttonText: "මෙනුව",
                     footerText: `${global.footer}`,
                     listType: "SINGLE_SELECT",
@@ -3500,7 +3500,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "Main Menu",
-										"description": "Displays The List Of Main Features",
+										"description": "Displays The List Of Main Features-ප්‍රධාන මෙනුව",
 										"rowId": `${prefix}mainmenu`
 									}
 								]
